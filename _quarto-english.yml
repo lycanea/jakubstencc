@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: ./_site/en
+
+website:
+  title: "Jakub Štenc"
+  description: ""
+  page-footer: 
+    left: "Copyright 2024, Jakub Štenc" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+  navbar:
+    logo: "images/pyl.png"
+    right:
+      #- text: Macroeconomics for Social Change
+      #  href: macro_for_social_change.qmd
+      - text: About
+        href: quarto.qmd
+      - text: Research
+        href: quarto.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Contacts
+        href: quarto.qmd
+      - text: CV
+        href: CV.qmd
+      - icon: github
+        href: https://github.com/lycanea
+      - icon: twitter
+        href: https://twitter.com/Cotylledon
+      - text: "{{< ai google-scholar size=xl >}}"
+        href: https://scholar.google.com/citations?user=xxxxx=en
+      - icon: orcid 
+        text: "{{< ai orcid size=xl >}}"
+        href: https://orcid.org/0000-0003-0678-8452
+      - href: ../_site/de
+        text: Deutsch
+      - href: ../_site/en
+        text: English
+        
+lang: en
+      
+format: 
+  html:
+    theme: sandstone
+    toc: true
+  
+  
