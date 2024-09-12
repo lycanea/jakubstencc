@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ./_site/en
+  output-dir: ./_jakubstenc/en
 
 website:
   title: "Jakub Štenc"
@@ -36,9 +36,9 @@ website:
       - icon: orcid 
         text: "{{< ai orcid size=xl >}}"
         href: https://orcid.org/0000-0003-0678-8452
-      - href: ../_site/de
+      - href: ../_jakubstenc/de
         text: Deutsch
-      - href: ../_site/en
+      - href: ../_jakubstenc/en
         text: English
         
 lang: en
